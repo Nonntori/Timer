@@ -1,0 +1,5 @@
+Nothing should be output because the only file in the changes is `.gitignore` itself, which doesn't indicate any build artifacts, dependencies, or temporary files that need to be ignored. Adding `.gitignore` to `.gitignore` would be incorrect.node_modules/
+.next/
+dist/
+build/
+*.log
