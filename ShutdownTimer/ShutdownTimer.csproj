@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ShutdownTimer</AssemblyName>
+    <RootNamespace>ShutdownTimer</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>ShutdownTimer Team</Authors>
+    <Company>ShutdownTimer</Company>
+    <Product>Таймер выключения</Product>
+    <Description>Современное приложение для автоматического выключения компьютера</Description>
+    <Copyright>Copyright © 2024</Copyright>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <WindowsPackageType>None</WindowsPackageType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
